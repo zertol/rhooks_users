@@ -1,0 +1,39 @@
+.users-form{
+    width:50%;
+    margin:25px auto;
+}
+
+.form-control{
+    margin-bottom: 5px;
+}
+
+.form-control label{
+    width:100%;
+    display: block;
+    font-family: inherit;
+}
+
+.form-control input{
+    width:100%;
+    border:none;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+
+.form-control input:focus {
+    outline: none;
+    border-bottom-color: #ff2058;
+}
+
+.form-control select{
+    width: 100px;
+    margin-top:15px;
+}
+
+.users-form-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

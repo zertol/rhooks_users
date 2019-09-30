@@ -1,0 +1,36 @@
+.users-grid{
+    width:100%;
+    padding: 0 25px;
+    margin: auto;
+}
+.users-grid table{
+    width: 100%;
+    border: 1px solid #888;
+    border-color: #888;
+    border-spacing: 0;
+}
+
+.users-grid table caption{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.users-grid table th{
+    text-align: left;
+    padding: 5px;
+}
+
+.users-grid table th,.users-grid table td{
+    border: 1px solid #888;
+    border-color: #888;
+}
+
+.users-grid table td{
+    padding: 5px;
+}
+
+.users-grid table td input{
+   width: 100%;
+   padding: 2px;
+}
